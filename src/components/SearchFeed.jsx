@@ -22,8 +22,8 @@ function SearchFeed() {
         mb={2}
         sx={{ color: "white" }}
       >
-        Search Results For{" "}
-        <span style={{ color: "#F31503" }}>{searchTerm}</span>videos
+        Search Results For{"  "}
+        <span style={{ color: "#F31503" }}>{searchTerm} </span> {" "}videos
       </Typography>
       <Videos videos={videos} />
     </Box>
